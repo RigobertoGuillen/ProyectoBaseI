@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D268CC2-8F67-10E3-253D-1162497B0159" name="LI_Tipo_Empleo">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-24 19:09:03 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Tipo_Empleo" id="48E4D6EF-886F-C3EC-9E89-C3DB13B2DC2B">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-24 19:10:48 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="4066EE5D-BC06-777D-B3C8-AE8B9EDF6B32">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-24 19:10:48 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23180AA9-408B-B5D0-7DB3-5448C75BC7FB" name="LI_Tipo_Empleo_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-24 19:10:48 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48E4D6EF-886F-C3EC-9E89-C3DB13B2DC2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

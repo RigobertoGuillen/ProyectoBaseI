@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BA9C000-D828-0776-FC0A-38FA742103D5" name="LI_Universidades">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-23 18:49:10 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Universidad" id="C2A99446-7C53-132C-06D5-26A8EC200B9B">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-24 17:18:12 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="701C1324-84AF-983E-B4A7-37C7C88677AD">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-24 17:18:12 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Direccion" id="C83A4DE2-AC96-9C7A-B3B8-572F38F8DD05">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-24 17:19:34 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76168C9F-A09B-8B2E-EE7B-2BF70364B9B0" referredColumn="31E811EB-ACB2-6D71-24D8-7C1160AEC588"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E75572D3-545D-6919-8096-F6E9871EA24B" name="LI_Universidades_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-24 17:18:39 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2A99446-7C53-132C-06D5-26A8EC200B9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55D8FFE7-7867-2FC6-15FB-421908BC1CDB" name="LI_Universidades_LI_Direccion_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-24 17:19:34 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C83A4DE2-AC96-9C7A-B3B8-572F38F8DD05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

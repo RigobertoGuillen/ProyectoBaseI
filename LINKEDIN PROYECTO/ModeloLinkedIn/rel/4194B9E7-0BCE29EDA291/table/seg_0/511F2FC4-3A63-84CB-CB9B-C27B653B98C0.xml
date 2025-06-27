@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="511F2FC4-3A63-84CB-CB9B-C27B653B98C0" name="LI_Ciudad">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:32:59 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Ciudad" id="4916C593-E8E0-1F93-92A5-1A46E8D46F67">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:33:41 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Departamento" id="E06F6039-84F3-77CC-B321-71BA63B7C016">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:55:53 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10DA5880-B8D0-D67A-853C-D271B65891D9" referredColumn="451A5C8D-B3DD-23BB-6961-CFA93A7EBBAA"/>
+</associations>
+</Column>
+<Column name="Nombre" id="661DE4CD-EE16-BB16-5ACF-D0976A814E5D">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:53:05 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2133207F-9B9E-435D-4889-41A34D142265" name="LI_Ciudad_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:53:12 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4916C593-E8E0-1F93-92A5-1A46E8D46F67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDB90502-BACD-2C2F-8344-1761BFFDFEC7" name="LI_Ciudad_LI_Departamento_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:55:53 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E06F6039-84F3-77CC-B321-71BA63B7C016"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

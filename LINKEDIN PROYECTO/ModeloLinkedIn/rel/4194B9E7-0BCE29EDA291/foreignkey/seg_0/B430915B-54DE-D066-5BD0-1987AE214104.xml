@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B430915B-54DE-D066-5BD0-1987AE214104" containerWithKeyObject="6B6BCB1B-1BAA-1805-AD30-D145F9A20003" localFKIndex="23B47F0E-A1AF-FE80-7B5C-A36704C4665A" name="LI_Puestos_LI_Tipo_Empleo_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-24 19:12:56 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<referredTableLongName>LI_Tipo_Empleo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D268CC2-8F67-10E3-253D-1162497B0159</referredTableID>
+<keyObject>23180AA9-408B-B5D0-7DB3-5448C75BC7FB</keyObject>
+<referredKeyID>23180AA9-408B-B5D0-7DB3-5448C75BC7FB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Tipo_Empleo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

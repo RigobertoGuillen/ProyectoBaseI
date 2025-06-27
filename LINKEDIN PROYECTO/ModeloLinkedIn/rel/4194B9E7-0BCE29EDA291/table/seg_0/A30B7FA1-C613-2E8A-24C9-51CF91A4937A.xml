@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A30B7FA1-C613-2E8A-24C9-51CF91A4937A" name="LI_Direccion">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:48:41 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Direccion" id="31E811EB-ACB2-6D71-24D8-7C1160AEC588">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:49:38 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Ciudad" id="2E85641F-EFCF-6597-B7FB-3E65083121B9">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:55:59 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDEA1C1D-E707-5710-54EE-294DA064F31A" referredColumn="4916C593-E8E0-1F93-92A5-1A46E8D46F67"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="629E63D7-81C9-3033-5A0C-0F2EF76061C7" name="LI_Direccion_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:49:38 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31E811EB-ACB2-6D71-24D8-7C1160AEC588"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D417691-54B3-E912-A125-A431F5630FC0" name="LI_Direccion_LI_Ciudad_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:55:59 UTC</createdTime>
+<ownerDesignName>ModeloLinkedIn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E85641F-EFCF-6597-B7FB-3E65083121B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
