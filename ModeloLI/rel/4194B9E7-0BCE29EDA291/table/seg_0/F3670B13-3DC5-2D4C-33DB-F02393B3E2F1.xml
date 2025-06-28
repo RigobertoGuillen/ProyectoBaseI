@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3670B13-3DC5-2D4C-33DB-F02393B3E2F1" name="LI_Tipo_Reacciones">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:44:39 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Tipo_Reaccion" id="CC19E798-0300-57E7-DE12-D61FDC79BDC5">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:46:00 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="BAC3EB6A-BCA5-A172-1A8B-1BB626DD98F2">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:46:00 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69699F8C-FA1E-0944-E662-742899BE2635" name="LI_Tipo_Reacciones_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:46:00 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC19E798-0300-57E7-DE12-D61FDC79BDC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93903568-7BB8-F33E-E76E-7842543D6CDC" name="LI_Estado_Solicitud">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 02:59:44 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Estado" id="FC993B8F-3BED-9FC4-997C-ADD6217093FD">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:01:12 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="F2862C8D-8F8D-7723-4961-3C5E7AEA2281">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:01:12 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="C4FC9932-B730-2578-1C90-4C6FED259FAA">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:01:12 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FEDDB73-43C6-FB96-B4D2-A794AC968347" name="LI_Estado_Solicitud_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:01:12 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC993B8F-3BED-9FC4-997C-ADD6217093FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

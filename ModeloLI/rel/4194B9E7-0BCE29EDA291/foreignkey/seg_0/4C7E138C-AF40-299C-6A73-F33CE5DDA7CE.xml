@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C7E138C-AF40-299C-6A73-F33CE5DDA7CE" containerWithKeyObject="6990934F-2F81-77F7-B575-26D5F097CC85" localFKIndex="6A8351C0-4E83-D16F-3E33-D5CFE72A6DFE" name="Li_Puestos_X_Usuario_LI_Puestos_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-25 05:20:05 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<referredTableLongName>LI_Puestos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6B6BCB1B-1BAA-1805-AD30-D145F9A20003</referredTableID>
+<keyObject>02798047-833F-99C1-3C4A-4438201E7DE4</keyObject>
+<referredKeyID>02798047-833F-99C1-3C4A-4438201E7DE4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Puesto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

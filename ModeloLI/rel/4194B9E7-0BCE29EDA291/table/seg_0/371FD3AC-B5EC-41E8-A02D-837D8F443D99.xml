@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="371FD3AC-B5EC-41E8-A02D-837D8F443D99" name="LI_Conexiones">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 00:53:05 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Usuario" id="07477C7B-6A63-ED2B-C625-0D83ACD57998">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:55:54 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C7000AF-0D12-4D35-EEFF-C5D553045D84" referredColumn="4EF091D6-2C9F-60B9-DF4A-868B692E22F8"/>
+</associations>
+</Column>
+<Column name="Id_Conexion" id="543167FD-24C2-F7DF-B675-82320935AA38">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:56:01 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D92BCE0C-0A89-09EF-4E2F-A45AD34D9538" referredColumn="4EF091D6-2C9F-60B9-DF4A-868B692E22F8"/>
+</associations>
+</Column>
+<Column name="Id_Estado" id="A1B61508-58BB-4C09-A957-70A7F8EB4525">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:58:24 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F727FF5B-1FAE-4176-2026-934B852472F6" referredColumn="84BAF87F-1781-1B4C-0CEE-A0B3EAF330D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A33D471-FD89-6E42-237F-325D832AD49F" name="LI_Conexiones_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:57:07 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07477C7B-6A63-ED2B-C625-0D83ACD57998"/>
+<colUsage columnID="543167FD-24C2-F7DF-B675-82320935AA38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE075517-0782-94EB-92F9-F4C72D4C3BD2" name="LI_Conexiones_LI_Usuario_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:55:54 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07477C7B-6A63-ED2B-C625-0D83ACD57998"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBA43E12-4197-6A6C-CF1F-34B8F14263DE" name="LI_Conexiones_LI_Usuario_FKv2">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:56:01 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="543167FD-24C2-F7DF-B675-82320935AA38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7298A262-5CA9-95E7-4935-7ACF2AEE72E8" name="LI_Conexiones_LI_Estado_Conexion_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:58:24 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1B61508-58BB-4C09-A957-70A7F8EB4525"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

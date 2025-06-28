@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B666738-B424-CA7E-2DCD-EBAC6BE39C5E" name="LI_Mensajes">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:38:54 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Msj" id="D34CAEC4-318B-4F81-9080-F87EF613DDCC">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:58:25 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Receptor" id="4DAFD4C2-92B6-0CC5-8AA2-FC6FAA46865A">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:58:44 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D04C95F9-7467-215B-8F2A-969DDE8C370E" referredColumn="4EF091D6-2C9F-60B9-DF4A-868B692E22F8"/>
+</associations>
+</Column>
+<Column name="Emisor" id="8907D8F7-C9C7-28A1-C8EE-D0B4927A06E3">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:58:59 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE7E971F-2E74-EAB6-B668-35486BF885EE" referredColumn="4EF091D6-2C9F-60B9-DF4A-868B692E22F8"/>
+</associations>
+</Column>
+<Column name="Fecha_Envio" id="DEFB3533-4382-7E8D-C86C-3294EC492A36">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:58:25 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contenido" id="B31CA9BD-3166-77A0-A3CB-A78DAC032590">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:58:25 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Respuesta Msj" id="41FF5A5D-29A7-F43E-9CC4-A622CAB93D66">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 05:44:02 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51AFC0CE-4EE9-3F16-DE72-A71D2F7ED830" referredColumn="D34CAEC4-318B-4F81-9080-F87EF613DDCC"/>
+</associations>
+</Column>
+<Column name="Id_Estado" id="EA2FC980-BC41-F55A-B493-730A817D6F2F">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:22:44 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB37AA08-7718-4106-3FEA-603A281971F8" referredColumn="3DACA19D-8DA0-39DA-EB2B-F5456408912D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB9F96AA-2679-9DBE-9367-AA576C7828A6" name="LI_Mensajes_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:58:25 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D34CAEC4-318B-4F81-9080-F87EF613DDCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CC3842A-DDE8-F7CB-7430-6D9154C58F51" name="LI_Mensajes_LI_Usuario_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:58:44 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DAFD4C2-92B6-0CC5-8AA2-FC6FAA46865A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B6DE646-37FC-90AF-DBD6-B9B164CDE50F" name="LI_Mensajes_LI_Usuario_FKv2">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 03:58:59 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8907D8F7-C9C7-28A1-C8EE-D0B4927A06E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11CDF64E-9C6B-6EA2-CB5D-82E98F5C3C78" name="LI_Mensajes_LI_Mensajes_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 05:44:02 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41FF5A5D-29A7-F43E-9CC4-A622CAB93D66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18A05955-1509-2BE8-CF67-70EB5B78439D" name="LI_Mensajes_LI_Estado_Msj_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:22:44 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA2FC980-BC41-F55A-B493-730A817D6F2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

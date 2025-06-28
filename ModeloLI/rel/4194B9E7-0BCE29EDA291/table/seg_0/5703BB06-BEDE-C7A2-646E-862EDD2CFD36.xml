@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5703BB06-BEDE-C7A2-646E-862EDD2CFD36" name="LI_Grupos">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 00:52:54 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Grupo" id="0001B92C-B59E-2F46-1708-C42D9CE10263">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 00:56:06 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Foto_Perfil" id="0360A957-C215-94F3-C71A-85276422023C">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:02:20 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Foto_Portada" id="AE1D087C-0508-9C32-6764-DB5DB5EEC8F8">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:02:20 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="44183680-8B97-B284-3992-FB900734796A">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:02:20 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0BADBF1-FEE9-FD11-681B-A3B77B3C631B" name="LI_Grupos_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 00:56:06 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0001B92C-B59E-2F46-1708-C42D9CE10263"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B06B99E-E6B9-5993-9CBB-454C0031365F" name="LI_Comentarios_Pub">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:48:15 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Comentario" id="82C0EC76-90B4-D3E5-926D-F502A55F2C1C">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:55:17 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Publicacion" id="BE36601A-3E70-E406-5A15-EB8FB82A4902">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:50:07 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9BCD0B6-D660-323F-4062-7F4127A2F045" referredColumn="0CE69487-CDE6-1649-FC42-92E68FC9FCA0"/>
+</associations>
+</Column>
+<Column name="Id_Usuario" id="73851957-5F3D-8271-017D-9DBE603864B7">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:50:35 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89FF980A-D614-2352-263B-F8D91633210F" referredColumn="4EF091D6-2C9F-60B9-DF4A-868B692E22F8"/>
+</associations>
+</Column>
+<Column name="Contenido" id="810BD6EF-F273-EDFB-682D-140699ACE873">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:48:58 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nuevo_Comentario" id="0B763A67-3EC6-009D-CD67-4B84731930D7">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:56:26 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81013FF8-F8B6-210E-25FE-AFDB9F2FE4A2" referredColumn="82C0EC76-90B4-D3E5-926D-F502A55F2C1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0524E4E-F56F-F209-0EEF-E1FC788B08E4" name="LI_Comentarios_Pub_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:51:39 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82C0EC76-90B4-D3E5-926D-F502A55F2C1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41931C56-1FA3-0DC5-790B-C3693E0E80BE" name="LI_Comentarios_Pub_LI_Publicaciones_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:50:07 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE36601A-3E70-E406-5A15-EB8FB82A4902"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A221A87B-607A-F8D6-4C0A-31EF7622C399" name="LI_Comentarios_Pub_LI_Usuario_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:50:35 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73851957-5F3D-8271-017D-9DBE603864B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49534814-B78E-D52E-DC7E-DE3FC4AF18FF" name="LI_Comentarios_Pub_LI_Comentarios_Pub_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:56:26 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B763A67-3EC6-009D-CD67-4B84731930D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

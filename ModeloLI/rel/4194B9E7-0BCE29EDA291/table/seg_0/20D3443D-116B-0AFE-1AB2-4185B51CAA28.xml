@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20D3443D-116B-0AFE-1AB2-4185B51CAA28" name="LI_Empleos_X_Empresa">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 02:45:32 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Empleo" id="2BB837C0-19A6-A31B-F0E3-E3FBA06B9E1E">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 02:48:28 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Empresa" id="8BCCA902-7522-235A-ADF7-8265D934198F">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 02:48:37 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9E2FC55-9674-013A-9DE0-E9CFE5FF2AFC" referredColumn="E21AE38F-3115-21EA-F006-6DE8C7E93145"/>
+</associations>
+</Column>
+<Column name="Descrpcion_Empleo" id="C4F02B24-0E6B-93A6-F52F-F69E257CE715">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 02:48:28 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Publicacion" id="C30CF9F6-0F0F-6E4F-F4A9-507BE3DAF5F0">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 02:48:28 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1910D1DA-36B1-9566-EFFF-D0373217533E" name="LI_Empleos_X_Empresa_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 02:48:28 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BB837C0-19A6-A31B-F0E3-E3FBA06B9E1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64E75940-DB3D-33C0-A9AA-A2B4BBCC43FE" name="LI_Empleos_X_Empresa_LI_Empresa_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 02:48:37 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BCCA902-7522-235A-ADF7-8265D934198F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

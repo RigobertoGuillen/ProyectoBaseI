@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C83AFB9-F70F-7C14-5233-96A4471D2920" containerWithKeyObject="06575AB4-6519-3CA4-CD98-701BB8FD8C26" localFKIndex="785D0E99-95B1-33AF-E31A-9D764AF12EAB" name="LI_Grupos_X_Usuario_LI_Grupos_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:38:11 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<referredTableLongName>LI_Grupos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5703BB06-BEDE-C7A2-646E-862EDD2CFD36</referredTableID>
+<keyObject>A0BADBF1-FEE9-FD11-681B-A3B77B3C631B</keyObject>
+<referredKeyID>A0BADBF1-FEE9-FD11-681B-A3B77B3C631B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Grupo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

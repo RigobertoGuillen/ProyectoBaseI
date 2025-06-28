@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF8C3772-B313-5BF3-B39C-6086567DE22A" name="LI_Departamento">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:33:46 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Departamento" id="451A5C8D-B3DD-23BB-6961-CFA93A7EBBAA">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:34:35 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="3F950684-9B61-1191-6CEF-701B24593A4D">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:34:35 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LI_Pais_Id_Pais" id="CAF94817-9F05-13C4-6A4A-D51C6A65C558">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:55:47 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0210FB2B-257F-EEA6-8ECE-447EACBEF4B5" referredColumn="808D82DE-B19B-2748-F812-3CB1F7FA4339"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="998E10BE-86AB-3AEC-7718-3E32F0C65061" name="LI_Departamento_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:50:01 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="451A5C8D-B3DD-23BB-6961-CFA93A7EBBAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B58B59C-9A9F-9F46-629F-303889B955CA" name="LI_Departamento_LI_Pais_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-22 01:55:47 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAF94817-9F05-13C4-6A4A-D51C6A65C558"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

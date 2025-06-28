@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23CFBB20-8E5C-B043-27C6-56468FBDD517" name="LI_Publicaciones">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:06:44 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Publicacion" id="0CE69487-CDE6-1649-FC42-92E68FC9FCA0">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:10:18 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pub_Foto" id="9AE825DD-4F49-3FFC-71EB-A5E3B81711BD">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:10:18 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pub_Video" id="24F3F877-E899-D38B-1A3F-B56E03047F29">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:10:18 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pub_Texto" id="72E61B83-1AD7-E428-DAC6-DF97E2498865">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:10:18 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Pub" id="3922FBE6-8303-5F24-4E60-D190BB8619ED">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:10:18 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CE96746-4013-FDDA-0592-474369B98B4F" name="LI_Publicaciones_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:10:18 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CE69487-CDE6-1649-FC42-92E68FC9FCA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

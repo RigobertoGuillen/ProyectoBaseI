@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB37AA08-7718-4106-3FEA-603A281971F8" containerWithKeyObject="3B666738-B424-CA7E-2DCD-EBAC6BE39C5E" localFKIndex="18A05955-1509-2BE8-CF67-70EB5B78439D" name="LI_Mensajes_LI_Estado_Msj_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:22:44 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<referredTableLongName>LI_Estado_Msj</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D21E2A8D-997F-C7CA-1DA6-C75678C1FE50</referredTableID>
+<keyObject>281EF746-8DF8-75B9-FAFE-EC407F108F6C</keyObject>
+<referredKeyID>281EF746-8DF8-75B9-FAFE-EC407F108F6C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Estado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

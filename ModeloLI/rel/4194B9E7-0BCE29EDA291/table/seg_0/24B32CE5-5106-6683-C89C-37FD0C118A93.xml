@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24B32CE5-5106-6683-C89C-37FD0C118A93" name="LI_Estado_Conexion">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:57:21 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Estado" id="84BAF87F-1781-1B4C-0CEE-A0B3EAF330D8">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:58:16 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="CE439304-E95E-68A2-6DCF-AABEA3344AA6">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:58:16 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8587930A-C44C-90C2-A4B5-311CCD4CFDAC" name="LI_Estado_Conexion_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:58:16 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84BAF87F-1781-1B4C-0CEE-A0B3EAF330D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

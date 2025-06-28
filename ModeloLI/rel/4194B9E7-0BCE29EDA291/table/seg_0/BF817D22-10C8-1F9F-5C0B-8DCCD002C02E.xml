@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF817D22-10C8-1F9F-5C0B-8DCCD002C02E" name="LI_Pub_x_Usuario">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:29:43 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Usuario" id="5C0977D2-30F8-702B-30A7-025C5400C8B7">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:31:30 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="911A559F-1A98-98EC-FB25-F4B895CB88F5" referredColumn="4EF091D6-2C9F-60B9-DF4A-868B692E22F8"/>
+</associations>
+</Column>
+<Column name="Id_Publicacion" id="088ED9D2-9CC4-E0D2-F21C-5FF17F0F16DD">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:31:24 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8F3C3F8-C687-36DA-3688-10CB8E5FAE1E" referredColumn="0CE69487-CDE6-1649-FC42-92E68FC9FCA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C10BEBF-0159-9138-14D3-A56E8016F3F1" name="LI_Pub_x_Usuario_PK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:32:01 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="088ED9D2-9CC4-E0D2-F21C-5FF17F0F16DD"/>
+<colUsage columnID="5C0977D2-30F8-702B-30A7-025C5400C8B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49071D4B-9F47-EBA3-0420-D43AF0F3F17F" name="LI_Pub_x_Usuario_LI_Publicaciones_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:31:24 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="088ED9D2-9CC4-E0D2-F21C-5FF17F0F16DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C7F189C-A218-1D77-5119-D8691DA1617B" name="LI_Pub_x_Usuario_LI_Usuario_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 01:31:30 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C0977D2-30F8-702B-30A7-025C5400C8B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

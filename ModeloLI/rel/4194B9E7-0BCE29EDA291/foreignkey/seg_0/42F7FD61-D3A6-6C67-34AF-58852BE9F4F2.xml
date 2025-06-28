@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42F7FD61-D3A6-6C67-34AF-58852BE9F4F2" containerWithKeyObject="8FA8210C-3548-5D6C-860B-D3E69E1E0110" localFKIndex="940F62BB-47D0-D60F-0180-6807CABD23E1" name="LI_Reacciones_Pub_LI_Tipo_Reacciones_FK">
+<createdBy>rguil</createdBy>
+<createdTime>2025-06-28 06:46:06 UTC</createdTime>
+<ownerDesignName>ModeloLI</ownerDesignName>
+<referredTableLongName>LI_Tipo_Reacciones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F3670B13-3DC5-2D4C-33DB-F02393B3E2F1</referredTableID>
+<keyObject>69699F8C-FA1E-0944-E662-742899BE2635</keyObject>
+<referredKeyID>69699F8C-FA1E-0944-E662-742899BE2635</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Tipo_Reaccion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
